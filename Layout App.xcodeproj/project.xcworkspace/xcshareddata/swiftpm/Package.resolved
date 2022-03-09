@@ -1,0 +1,277 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "abseil",
+        "repositoryURL": "https://github.com/firebase/abseil-cpp-SwiftPM.git",
+        "state": {
+          "branch": null,
+          "revision": "fffc3c2729be5747390ad02d5100291a0d9ad26a",
+          "version": "0.20200225.4"
+        }
+      },
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire",
+        "state": {
+          "branch": null,
+          "revision": "f82c23a8a7ef8dc1a49a8bfc6a96883e79121864",
+          "version": "5.5.0"
+        }
+      },
+      {
+        "package": "AppAuth",
+        "repositoryURL": "https://github.com/openid/AppAuth-iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "01131d68346c8ae552961c768d583c715fbe1410",
+          "version": "1.4.0"
+        }
+      },
+      {
+        "package": "BoringSSL-GRPC",
+        "repositoryURL": "https://github.com/firebase/boringssl-SwiftPM.git",
+        "state": {
+          "branch": null,
+          "revision": "734a8247442fde37df4364c21f6a0085b6a36728",
+          "version": "0.7.2"
+        }
+      },
+      {
+        "package": "Firebase",
+        "repositoryURL": "https://github.com/firebase/firebase-ios-sdk",
+        "state": {
+          "branch": null,
+          "revision": "d4c4e8c7b8898ea771e90beab71112ea279d73a5",
+          "version": "8.13.0"
+        }
+      },
+      {
+        "package": "GoogleAppMeasurement",
+        "repositoryURL": "https://github.com/google/GoogleAppMeasurement.git",
+        "state": {
+          "branch": null,
+          "revision": "6cc2991c11872510a5314bc112cc7558dd9d046a",
+          "version": "8.12.0"
+        }
+      },
+      {
+        "package": "GoogleDataTransport",
+        "repositoryURL": "https://github.com/google/GoogleDataTransport.git",
+        "state": {
+          "branch": null,
+          "revision": "15ccdfd25ac55b9239b82809531ff26605e7556e",
+          "version": "9.1.2"
+        }
+      },
+      {
+        "package": "GoogleSignIn",
+        "repositoryURL": "https://github.com/google/GoogleSignIn-iOS",
+        "state": {
+          "branch": null,
+          "revision": "60ca2bfd218ccb194a746a79b41d9d50eb7e3af0",
+          "version": "6.1.0"
+        }
+      },
+      {
+        "package": "GoogleUtilities",
+        "repositoryURL": "https://github.com/google/GoogleUtilities.git",
+        "state": {
+          "branch": null,
+          "revision": "b3bb0c5551fb3f80ca939829639ab5b093edd14f",
+          "version": "7.7.0"
+        }
+      },
+      {
+        "package": "gRPC",
+        "repositoryURL": "https://github.com/firebase/grpc-SwiftPM.git",
+        "state": {
+          "branch": null,
+          "revision": "fb405dd2c7901485f7e158b24e3a0a47e4efd8b5",
+          "version": "1.28.4"
+        }
+      },
+      {
+        "package": "GTMSessionFetcher",
+        "repositoryURL": "https://github.com/google/gtm-session-fetcher.git",
+        "state": {
+          "branch": null,
+          "revision": "bc6a19702ac76ac4e488b68148710eb815f9bc56",
+          "version": "1.7.0"
+        }
+      },
+      {
+        "package": "GTMAppAuth",
+        "repositoryURL": "https://github.com/google/GTMAppAuth.git",
+        "state": {
+          "branch": null,
+          "revision": "40f4103fb52109032c05599a0c39ad43edbdf80a",
+          "version": "1.2.2"
+        }
+      },
+      {
+        "package": "leveldb",
+        "repositoryURL": "https://github.com/firebase/leveldb.git",
+        "state": {
+          "branch": null,
+          "revision": "0706abcc6b0bd9cedfbb015ba840e4a780b5159b",
+          "version": "1.22.2"
+        }
+      },
+      {
+        "package": "nanopb",
+        "repositoryURL": "https://github.com/firebase/nanopb.git",
+        "state": {
+          "branch": null,
+          "revision": "7ee9ef9f627d85cbe1b8c4f49a3ed26eed216c77",
+          "version": "2.30908.0"
+        }
+      },
+      {
+        "package": "NativeUIKit",
+        "repositoryURL": "https://github.com/ivanvorobei/NativeUIKit",
+        "state": {
+          "branch": null,
+          "revision": "63d219400903ad40c5935cc91281cf98c4872bac",
+          "version": "1.4.5"
+        }
+      },
+      {
+        "package": "Nuke",
+        "repositoryURL": "https://github.com/kean/Nuke",
+        "state": {
+          "branch": null,
+          "revision": "78fa963b8491fc520791d8c2a509f1b8593d8aae",
+          "version": "10.7.1"
+        }
+      },
+      {
+        "package": "Promises",
+        "repositoryURL": "https://github.com/google/promises.git",
+        "state": {
+          "branch": null,
+          "revision": "611337c330350c9c1823ad6d671e7f936af5ee13",
+          "version": "2.0.0"
+        }
+      },
+      {
+        "package": "SPAlert",
+        "repositoryURL": "https://github.com/ivanvorobei/SPAlert",
+        "state": {
+          "branch": null,
+          "revision": "0df499e9f5dc43790ac65f227821acfa7b05b168",
+          "version": "4.2.0"
+        }
+      },
+      {
+        "package": "SparrowKit",
+        "repositoryURL": "https://github.com/ivanvorobei/SparrowKit",
+        "state": {
+          "branch": null,
+          "revision": "2312c4bb1362a5ce297e11b4af3fcd0ac1951798",
+          "version": "3.5.8"
+        }
+      },
+      {
+        "package": "SPDiffable",
+        "repositoryURL": "https://github.com/ivanvorobei/SPDiffable",
+        "state": {
+          "branch": null,
+          "revision": "646be60f17e42cd61111976551cf2347896ab383",
+          "version": "4.10.0"
+        }
+      },
+      {
+        "package": "SPFirebase",
+        "repositoryURL": "https://github.com/ivanvorobei/SPFirebase",
+        "state": {
+          "branch": null,
+          "revision": "e8f63f908c00382f34ce12bf358565726a9f2673",
+          "version": "1.0.8"
+        }
+      },
+      {
+        "package": "SPIndicator",
+        "repositoryURL": "https://github.com/ivanvorobei/SPIndicator",
+        "state": {
+          "branch": null,
+          "revision": "17fc8e08b5428e9553f5dea7ebc8c201513a745c",
+          "version": "1.6.4"
+        }
+      },
+      {
+        "package": "SPPageController",
+        "repositoryURL": "https://github.com/ivanvorobei/SPPageController",
+        "state": {
+          "branch": null,
+          "revision": "7d6c9a7cc31f7b1d668125f8bd8047e57621de96",
+          "version": "1.3.2"
+        }
+      },
+      {
+        "package": "SPPermissions",
+        "repositoryURL": "https://github.com/ivanvorobei/SPPermissions",
+        "state": {
+          "branch": null,
+          "revision": "14299050782ac18a40edac8e7369425c13998b68",
+          "version": "7.1.5"
+        }
+      },
+      {
+        "package": "SPPerspective",
+        "repositoryURL": "https://github.com/ivanvorobei/SPPerspective",
+        "state": {
+          "branch": null,
+          "revision": "580ed06a5daec94c5095379971570289b429fa3d",
+          "version": "1.4.1"
+        }
+      },
+      {
+        "package": "SPProfiling",
+        "repositoryURL": "https://github.com/ivanvorobei/SPProfiling",
+        "state": {
+          "branch": null,
+          "revision": "1bade3788951019e95605f59a13b8bcd7a681e4b",
+          "version": "1.1.8"
+        }
+      },
+      {
+        "package": "SPSafeSymbols",
+        "repositoryURL": "https://github.com/sparrowcode/SPSafeSymbols",
+        "state": {
+          "branch": null,
+          "revision": "9af06f7d21b2b2ad83ce2216506c0ff4ff0c3809",
+          "version": "1.0.5"
+        }
+      },
+      {
+        "package": "SPSettingsIcons",
+        "repositoryURL": "https://github.com/sparrowcode/SPSettingsIcons",
+        "state": {
+          "branch": null,
+          "revision": "a7b75ea65db0c7bad177da9f4a9da17999e343f2",
+          "version": "1.0.1"
+        }
+      },
+      {
+        "package": "SwiftProtobuf",
+        "repositoryURL": "https://github.com/apple/swift-protobuf.git",
+        "state": {
+          "branch": null,
+          "revision": "e1499bc69b9040b29184f7f2996f7bab467c1639",
+          "version": "1.19.0"
+        }
+      },
+      {
+        "package": "SwiftyJSON",
+        "repositoryURL": "https://github.com/SwiftyJSON/SwiftyJSON",
+        "state": {
+          "branch": null,
+          "revision": "b3dcd7dbd0d488e1a7077cb33b00f2083e382f07",
+          "version": "5.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
