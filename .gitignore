@@ -1,0 +1,9 @@
+# OS X Temporary Files
+.DS_Store
+.Trashes
+
+# Firebase
+GoogleService-Info.plist
+
+# Xcode
+xcuserdata
