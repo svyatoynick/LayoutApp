@@ -24,8 +24,8 @@
         "repositoryURL": "https://github.com/openid/AppAuth-iOS.git",
         "state": {
           "branch": null,
-          "revision": "01131d68346c8ae552961c768d583c715fbe1410",
-          "version": "1.4.0"
+          "revision": "33660c271c961f8ce1084cc13f2ea8195e864f7d",
+          "version": "1.5.0"
         }
       },
       {
@@ -132,8 +132,8 @@
         "repositoryURL": "https://github.com/ivanvorobei/NativeUIKit",
         "state": {
           "branch": null,
-          "revision": "63d219400903ad40c5935cc91281cf98c4872bac",
-          "version": "1.4.5"
+          "revision": "03ae36633a688567c32bc804682a452f0420710b",
+          "version": "1.4.6"
         }
       },
       {
@@ -168,8 +168,8 @@
         "repositoryURL": "https://github.com/ivanvorobei/SparrowKit",
         "state": {
           "branch": null,
-          "revision": "2312c4bb1362a5ce297e11b4af3fcd0ac1951798",
-          "version": "3.5.8"
+          "revision": "d20219d5bc794624d1062a9020b80c12d8d1a9ce",
+          "version": "3.6.1"
         }
       },
       {
@@ -177,8 +177,8 @@
         "repositoryURL": "https://github.com/ivanvorobei/SPDiffable",
         "state": {
           "branch": null,
-          "revision": "646be60f17e42cd61111976551cf2347896ab383",
-          "version": "4.10.0"
+          "revision": "4ed416a5234a85c763645f0d7da63bee72c5526f",
+          "version": "4.2.0"
         }
       },
       {
@@ -186,8 +186,8 @@
         "repositoryURL": "https://github.com/ivanvorobei/SPFirebase",
         "state": {
           "branch": null,
-          "revision": "e8f63f908c00382f34ce12bf358565726a9f2673",
-          "version": "1.0.8"
+          "revision": "36eeb506c14d9b1df26bca85d6a5d94f2ee9afa0",
+          "version": "1.0.9"
         }
       },
       {
@@ -231,8 +231,8 @@
         "repositoryURL": "https://github.com/ivanvorobei/SPProfiling",
         "state": {
           "branch": null,
-          "revision": "1bade3788951019e95605f59a13b8bcd7a681e4b",
-          "version": "1.1.8"
+          "revision": "b5c6214e1e08ec9a58a577179127fa34899b18c0",
+          "version": "1.1.9"
         }
       },
       {

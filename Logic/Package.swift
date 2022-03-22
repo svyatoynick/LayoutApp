@@ -12,10 +12,10 @@ let package = Package(
         .library(name: "Logic", targets: ["Logic"])
     ],
     dependencies: [
-        .package(url: "https://github.com/ivanvorobei/SPFirebase", .upToNextMajor(from: "1.0.8")),
+        .package(url: "https://github.com/ivanvorobei/SPFirebase", .upToNextMajor(from: "1.0.9")),
         .package(url: "https://github.com/SwiftyJSON/SwiftyJSON", .upToNextMajor(from: "5.0.1")),
         .package(url: "https://github.com/Alamofire/Alamofire", .upToNextMajor(from: "5.5.0")),
-        .package(url: "https://github.com/ivanvorobei/SPProfiling", .upToNextMajor(from: "1.1.8")),
+        .package(url: "https://github.com/ivanvorobei/SPProfiling", .upToNextMajor(from: "1.1.9")),
         .package(path: "Constants"),
         .package(path: "Models"),
         .package(path: "Texts")

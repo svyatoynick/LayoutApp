@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F40E507427D87B4300351BCA"
-               BuildableName = "Layout App.app"
-               BlueprintName = "Layout App"
-               ReferencedContainer = "container:Layout App.xcodeproj">
+               BuildableName = "Layout.app"
+               BlueprintName = "Layout"
+               ReferencedContainer = "container:Layout.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F40E507427D87B4300351BCA"
-            BuildableName = "Layout App.app"
-            BlueprintName = "Layout App"
-            ReferencedContainer = "container:Layout App.xcodeproj">
+            BuildableName = "Layout.app"
+            BlueprintName = "Layout"
+            ReferencedContainer = "container:Layout.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F40E507427D87B4300351BCA"
-            BuildableName = "Layout App.app"
-            BlueprintName = "Layout App"
-            ReferencedContainer = "container:Layout App.xcodeproj">
+            BuildableName = "Layout.app"
+            BlueprintName = "Layout"
+            ReferencedContainer = "container:Layout.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

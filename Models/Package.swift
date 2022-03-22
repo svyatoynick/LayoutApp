@@ -14,7 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/ivanvorobei/SparrowKit", .upToNextMajor(from: "3.5.8"))
+        .package(url: "https://github.com/ivanvorobei/SparrowKit", .upToNextMajor(from: "3.6.1"))
     ],
     targets: [
         .target(

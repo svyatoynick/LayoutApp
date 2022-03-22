@@ -14,7 +14,7 @@ public class LogicService {
         
         let filePath = Bundle.module.path(forResource: Constants.Firebase.plist_filename, ofType: .empty)!
         let options = FirebaseOptions(contentsOfFile: filePath)!
-        SPProfiling.configure(.onlyAuthed, firebaseOptions: options)
+        SPProfiling.configure(.anonymouslyAllowed, firebaseOptions: options)
         
         shared.setObservers()
     }

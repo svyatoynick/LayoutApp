@@ -20,6 +20,9 @@ struct BarRowModel {
     enum Item: String, CaseIterable {
         
         case views
+        case frames
+        case autoLayout
+        case controllers
         case settings
         
         var id: String { return rawValue }
@@ -27,6 +30,9 @@ struct BarRowModel {
         var title: String {
             switch self {
             case .views: return Texts.Views.title
+            case .frames: return "Frames"
+            case .autoLayout: return "Auto Layout"
+            case .controllers: return "Controllers"
             case .settings: return Texts.App.Settings.title
             }
         }
@@ -34,6 +40,9 @@ struct BarRowModel {
         var image: UIImage {
             switch self {
             case .views: return .init(SPSafeSymbol.rectangle.insetFilled)
+            case .frames: return .init(SPSafeSymbol.rectangle.insetFilled)
+            case .autoLayout: return .init(SPSafeSymbol.rectangle.insetFilled)
+            case .controllers: return .init(SPSafeSymbol.rectangle.insetFilled)
             case .settings: return .init(SPSafeSymbol.gearshape.fill)
             }
         }
@@ -41,6 +50,9 @@ struct BarRowModel {
         var controller: UIViewController {
             switch self {
             case .views: return Controllers.Views.home
+            case .frames: return UIViewController()
+            case .autoLayout: return UIViewController()
+            case .controllers: return UIViewController()
             case .settings: return Controllers.App.Settings.home
             }
         }

@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "AppImport", targets: ["AppImport"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ivanvorobei/NativeUIKit", .upToNextMajor(from: "1.4.5")),
+        .package(url: "https://github.com/ivanvorobei/NativeUIKit", .upToNextMajor(from: "1.4.6")),
         .package(url: "https://github.com/ivanvorobei/SPIndicator", .upToNextMajor(from: "1.6.4")),
         .package(url: "https://github.com/ivanvorobei/SPPermissions", .upToNextMajor(from: "7.1.5")),
         .package(url: "https://github.com/ivanvorobei/SPAlert", .upToNextMajor(from: "4.2.0")),

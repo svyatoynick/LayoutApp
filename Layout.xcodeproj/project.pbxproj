@@ -32,8 +32,6 @@
 		F40E511627D87EF100351BCA /* SceneUserActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E50C127D87EF100351BCA /* SceneUserActivity.swift */; };
 		F40E511727D87EF100351BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E50C227D87EF100351BCA /* AppDelegate.swift */; };
 		F40E511827D87EF100351BCA /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E50C627D87EF100351BCA /* SettingsController.swift */; };
-		F40E511927D87EF100351BCA /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E50C827D87EF100351BCA /* OnboardingController.swift */; };
-		F40E511A27D87EF100351BCA /* OnboardngFeaturesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E50C927D87EF100351BCA /* OnboardngFeaturesController.swift */; };
 		F40E512027D87EF100351BCA /* SideBarSplitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E50D227D87EF100351BCA /* SideBarSplitController.swift */; };
 		F40E512127D87EF100351BCA /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E50D327D87EF100351BCA /* TabBarController.swift */; };
 		F40E512227D87EF100351BCA /* SidebarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E50D427D87EF100351BCA /* SidebarController.swift */; };
@@ -41,21 +39,17 @@
 		F40E513A27D87EF100351BCA /* CellProvider+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E50F527D87EF100351BCA /* CellProvider+Views.swift */; };
 		F40E513B27D87EF100351BCA /* ViewsHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E50F627D87EF100351BCA /* ViewsHomeController.swift */; };
 		F40E513C27D87EF100351BCA /* ViewHeaderTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E50F727D87EF100351BCA /* ViewHeaderTableCell.swift */; };
-		F40E513F27D87F3100351BCA /* AppImport in Frameworks */ = {isa = PBXBuildFile; productRef = F40E513E27D87F3100351BCA /* AppImport */; };
 		F40E514127D87F3E00351BCA /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40E514027D87F3E00351BCA /* Media.xcassets */; };
 		F40E514327D8822500351BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40E514227D8822500351BCA /* LaunchScreen.storyboard */; };
 		F40E514727D8823700351BCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F40E514927D8823700351BCA /* InfoPlist.strings */; };
 		F40E514C27D8824100351BCA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F40E514E27D8824100351BCA /* Localizable.strings */; };
+		F4A2E2EF27E9B911000B67EA /* AppImport in Frameworks */ = {isa = PBXBuildFile; productRef = F4A2E2EE27E9B911000B67EA /* AppImport */; };
+		F4A2E2F127E9B911000B67EA /* Logic in Frameworks */ = {isa = PBXBuildFile; productRef = F4A2E2F027E9B911000B67EA /* Logic */; };
+		F4FE3B2127E9BAF100E6E0CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4FE3B2027E9BAF100E6E0CD /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F40E507527D87B4400351BCA /* Layout App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Layout App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F40E508C27D87D0300351BCA /* Models */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Models; sourceTree = "<group>"; };
-		F40E508D27D87D0300351BCA /* Logic */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Logic; sourceTree = "<group>"; };
-		F40E508E27D87D0300351BCA /* AppImport */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AppImport; sourceTree = "<group>"; };
-		F40E508F27D87D0300351BCA /* Constants */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Constants; sourceTree = "<group>"; };
-		F40E509027D87D0300351BCA /* Texts */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Texts; sourceTree = "<group>"; };
-		F40E509127D87D0300351BCA /* ExtensionImport */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ExtensionImport; sourceTree = "<group>"; };
+		F40E507527D87B4400351BCA /* Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Layout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40E509727D87EF000351BCA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F40E509927D87EF000351BCA /* FlagsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagsExtension.swift; sourceTree = "<group>"; };
 		F40E509A27D87EF000351BCA /* ConstantsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsExtension.swift; sourceTree = "<group>"; };
@@ -82,8 +76,6 @@
 		F40E50C127D87EF100351BCA /* SceneUserActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneUserActivity.swift; sourceTree = "<group>"; };
 		F40E50C227D87EF100351BCA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F40E50C627D87EF100351BCA /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
-		F40E50C827D87EF100351BCA /* OnboardingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
-		F40E50C927D87EF100351BCA /* OnboardngFeaturesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardngFeaturesController.swift; sourceTree = "<group>"; };
 		F40E50D227D87EF100351BCA /* SideBarSplitController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarSplitController.swift; sourceTree = "<group>"; };
 		F40E50D327D87EF100351BCA /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		F40E50D427D87EF100351BCA /* SidebarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarController.swift; sourceTree = "<group>"; };
@@ -96,6 +88,13 @@
 		F40E514827D8823700351BCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F40E514D27D8824100351BCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F40E514F27D8833E00351BCA /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Entitlements.entitlements; sourceTree = "<group>"; };
+		F43A8D2627E9B43A002446FC /* Models */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Models; sourceTree = "<group>"; };
+		F43A8D2727E9B43A002446FC /* Texts */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Texts; sourceTree = "<group>"; };
+		F43A8D2827E9B4E1002446FC /* Constants */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Constants; sourceTree = "<group>"; };
+		F43A8D2927E9B4E1002446FC /* ExtensionImport */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ExtensionImport; sourceTree = "<group>"; };
+		F43A8D2B27E9B638002446FC /* Logic */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Logic; sourceTree = "<group>"; };
+		F43A8D2C27E9B74C002446FC /* AppImport */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AppImport; sourceTree = "<group>"; };
+		F4FE3B2027E9BAF100E6E0CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +102,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F40E513F27D87F3100351BCA /* AppImport in Frameworks */,
+				F4A2E2EF27E9B911000B67EA /* AppImport in Frameworks */,
+				F4A2E2F127E9B911000B67EA /* Logic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,12 +113,12 @@
 		F40E506C27D87B4300351BCA = {
 			isa = PBXGroup;
 			children = (
-				F40E508E27D87D0300351BCA /* AppImport */,
-				F40E508F27D87D0300351BCA /* Constants */,
-				F40E509127D87D0300351BCA /* ExtensionImport */,
-				F40E508D27D87D0300351BCA /* Logic */,
-				F40E508C27D87D0300351BCA /* Models */,
-				F40E509027D87D0300351BCA /* Texts */,
+				F43A8D2C27E9B74C002446FC /* AppImport */,
+				F43A8D2B27E9B638002446FC /* Logic */,
+				F43A8D2827E9B4E1002446FC /* Constants */,
+				F43A8D2927E9B4E1002446FC /* ExtensionImport */,
+				F43A8D2627E9B43A002446FC /* Models */,
+				F43A8D2727E9B43A002446FC /* Texts */,
 				F40E507727D87B4400351BCA /* iOS & macOS Apps */,
 				F40E507627D87B4400351BCA /* Products */,
 				F40E513D27D87F3100351BCA /* Frameworks */,
@@ -128,7 +128,7 @@
 		F40E507627D87B4400351BCA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F40E507527D87B4400351BCA /* Layout App.app */,
+				F40E507527D87B4400351BCA /* Layout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,6 +166,7 @@
 		F40E509627D87EF000351BCA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F4FE3B2027E9BAF100E6E0CD /* GoogleService-Info.plist */,
 				F40E514F27D8833E00351BCA /* Entitlements.entitlements */,
 				F40E509727D87EF000351BCA /* Info.plist */,
 				F40E514027D87F3E00351BCA /* Media.xcassets */,
@@ -304,7 +305,6 @@
 			isa = PBXGroup;
 			children = (
 				F40E50C527D87EF100351BCA /* Settings */,
-				F40E50C727D87EF100351BCA /* Onboarding */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -315,15 +315,6 @@
 				F40E50C627D87EF100351BCA /* SettingsController.swift */,
 			);
 			path = Settings;
-			sourceTree = "<group>";
-		};
-		F40E50C727D87EF100351BCA /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				F40E50C827D87EF100351BCA /* OnboardingController.swift */,
-				F40E50C927D87EF100351BCA /* OnboardngFeaturesController.swift */,
-			);
-			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		F40E50D127D87EF100351BCA /* Root */ = {
@@ -374,9 +365,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F40E507427D87B4300351BCA /* Layout App */ = {
+		F40E507427D87B4300351BCA /* Layout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F40E508927D87B4400351BCA /* Build configuration list for PBXNativeTarget "Layout App" */;
+			buildConfigurationList = F40E508927D87B4400351BCA /* Build configuration list for PBXNativeTarget "Layout" */;
 			buildPhases = (
 				F40E507127D87B4300351BCA /* Sources */,
 				F40E507227D87B4300351BCA /* Frameworks */,
@@ -386,12 +377,13 @@
 			);
 			dependencies = (
 			);
-			name = "Layout App";
+			name = Layout;
 			packageProductDependencies = (
-				F40E513E27D87F3100351BCA /* AppImport */,
+				F4A2E2EE27E9B911000B67EA /* AppImport */,
+				F4A2E2F027E9B911000B67EA /* Logic */,
 			);
 			productName = "iOS & macOS Apps";
-			productReference = F40E507527D87B4400351BCA /* Layout App.app */;
+			productReference = F40E507527D87B4400351BCA /* Layout.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -409,7 +401,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F40E507027D87B4300351BCA /* Build configuration list for PBXProject "Layout App" */;
+			buildConfigurationList = F40E507027D87B4300351BCA /* Build configuration list for PBXProject "Layout" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -422,7 +414,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F40E507427D87B4300351BCA /* Layout App */,
+				F40E507427D87B4300351BCA /* Layout */,
 			);
 		};
 /* End PBXProject section */
@@ -434,6 +426,7 @@
 			files = (
 				F40E514127D87F3E00351BCA /* Media.xcassets in Resources */,
 				F40E514C27D8824100351BCA /* Localizable.strings in Resources */,
+				F4FE3B2127E9BAF100E6E0CD /* GoogleService-Info.plist in Resources */,
 				F40E514727D8823700351BCA /* InfoPlist.strings in Resources */,
 				F40E514327D8822500351BCA /* LaunchScreen.storyboard in Resources */,
 			);
@@ -447,13 +440,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F40E511027D87EF100351BCA /* VerticalContentScrollController.swift in Sources */,
-				F40E511927D87EF100351BCA /* OnboardingController.swift in Sources */,
 				F40E511527D87EF100351BCA /* Notifications.swift in Sources */,
 				F40E510727D87EF100351BCA /* Controllers.swift in Sources */,
 				F40E511327D87EF100351BCA /* SettingsSceneDelegate.swift in Sources */,
 				F40E513C27D87EF100351BCA /* ViewHeaderTableCell.swift in Sources */,
 				F40E510427D87EF100351BCA /* BarRowModel.swift in Sources */,
-				F40E511A27D87EF100351BCA /* OnboardngFeaturesController.swift in Sources */,
 				F40E511827D87EF100351BCA /* SettingsController.swift in Sources */,
 				F40E50FE27D87EF100351BCA /* Images.swift in Sources */,
 				F40E510527D87EF100351BCA /* BarSectionModel.swift in Sources */,
@@ -682,7 +673,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F40E507027D87B4300351BCA /* Build configuration list for PBXProject "Layout App" */ = {
+		F40E507027D87B4300351BCA /* Build configuration list for PBXProject "Layout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F40E508727D87B4400351BCA /* Debug */,
@@ -691,7 +682,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F40E508927D87B4400351BCA /* Build configuration list for PBXNativeTarget "Layout App" */ = {
+		F40E508927D87B4400351BCA /* Build configuration list for PBXNativeTarget "Layout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F40E508A27D87B4400351BCA /* Debug */,
@@ -703,9 +694,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F40E513E27D87F3100351BCA /* AppImport */ = {
+		F4A2E2EE27E9B911000B67EA /* AppImport */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AppImport;
+		};
+		F4A2E2F027E9B911000B67EA /* Logic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Logic;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
