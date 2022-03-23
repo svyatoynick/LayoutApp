@@ -30,9 +30,9 @@ struct BarRowModel {
         var title: String {
             switch self {
             case .views: return Texts.Views.title
-            case .frames: return "Frames"
-            case .autoLayout: return "Auto Layout"
-            case .controllers: return "Controllers"
+            case .frames: return Texts.Frames.title
+            case .autoLayout: return Texts.AutoLayout.title
+            case .controllers: return Texts.Controllers.title
             case .settings: return Texts.App.Settings.title
             }
         }
@@ -50,9 +50,9 @@ struct BarRowModel {
         var controller: UIViewController {
             switch self {
             case .views: return Controllers.Views.home
-            case .frames: return UIViewController()
-            case .autoLayout: return UIViewController()
-            case .controllers: return UIViewController()
+            case .frames: return Controllers.Frames.home
+            case .autoLayout: return Controllers.AutoLayout.home
+            case .controllers: return Controllers.Controllers.home
             case .settings: return Controllers.App.Settings.home
             }
         }
