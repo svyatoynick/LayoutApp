@@ -31,6 +31,25 @@ class ViewsHomeController: SPDiffableTableController {
         )
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        presentModal()
+    }
+    
+    // move to detail
+    private func presentModal() {
+        let detailViewController = UIViewController()
+        detailViewController.view.backgroundColor = .systemBackground
+        let nav = UINavigationController(rootViewController: detailViewController)
+        detailViewController.navigationItem.rightBarButtonItem = detailViewController.closeBarButtonItem
+
+        nav.modalPresentationStyle = .pageSheet
+        if let sheet = nav.sheetPresentationController {
+            sheet.detents = [.medium(), .large()]
+        }
+        present(nav, animated: true, completion: nil)
+    }
+    
     // MARK: - Diffable
     
     internal enum Item: String {
