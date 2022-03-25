@@ -42,8 +42,8 @@
         "repositoryURL": "https://github.com/firebase/firebase-ios-sdk",
         "state": {
           "branch": null,
-          "revision": "d4c4e8c7b8898ea771e90beab71112ea279d73a5",
-          "version": "8.13.0"
+          "revision": "ccb2bccb82e62ad9e8a4e757a43ce6a04ceae1c9",
+          "version": "8.14.0"
         }
       },
       {
@@ -51,8 +51,8 @@
         "repositoryURL": "https://github.com/google/GoogleAppMeasurement.git",
         "state": {
           "branch": null,
-          "revision": "6cc2991c11872510a5314bc112cc7558dd9d046a",
-          "version": "8.12.0"
+          "revision": "9b74e6a3f875208c04c22b39b580a21d4de0f4f9",
+          "version": "8.14.0"
         }
       },
       {
@@ -96,8 +96,8 @@
         "repositoryURL": "https://github.com/google/gtm-session-fetcher.git",
         "state": {
           "branch": null,
-          "revision": "bc6a19702ac76ac4e488b68148710eb815f9bc56",
-          "version": "1.7.0"
+          "revision": "eca9404a18f53727e4698211aaf2615eb93b962a",
+          "version": "1.7.1"
         }
       },
       {
@@ -105,8 +105,8 @@
         "repositoryURL": "https://github.com/google/GTMAppAuth.git",
         "state": {
           "branch": null,
-          "revision": "40f4103fb52109032c05599a0c39ad43edbdf80a",
-          "version": "1.2.2"
+          "revision": "e803d09da0147fbf1bbb30e126c47ff43254e057",
+          "version": "1.2.3"
         }
       },
       {
@@ -132,8 +132,8 @@
         "repositoryURL": "https://github.com/ivanvorobei/NativeUIKit",
         "state": {
           "branch": null,
-          "revision": "03ae36633a688567c32bc804682a452f0420710b",
-          "version": "1.4.6"
+          "revision": "2ff6cc2230f4eff14c1f4a07361896575ac811ab",
+          "version": "1.4.7"
         }
       },
       {
@@ -204,8 +204,8 @@
         "repositoryURL": "https://github.com/ivanvorobei/SPPageController",
         "state": {
           "branch": null,
-          "revision": "7d6c9a7cc31f7b1d668125f8bd8047e57621de96",
-          "version": "1.3.2"
+          "revision": "9be462c86de7a93ca6dbe95397944fe4da78d499",
+          "version": "1.3.3"
         }
       },
       {

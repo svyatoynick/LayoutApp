@@ -43,8 +43,8 @@
 		F40E514327D8822500351BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40E514227D8822500351BCA /* LaunchScreen.storyboard */; };
 		F40E514727D8823700351BCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F40E514927D8823700351BCA /* InfoPlist.strings */; };
 		F40E514C27D8824100351BCA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F40E514E27D8824100351BCA /* Localizable.strings */; };
-		F4A2E2EF27E9B911000B67EA /* AppImport in Frameworks */ = {isa = PBXBuildFile; productRef = F4A2E2EE27E9B911000B67EA /* AppImport */; };
-		F4A2E2F127E9B911000B67EA /* Logic in Frameworks */ = {isa = PBXBuildFile; productRef = F4A2E2F027E9B911000B67EA /* Logic */; };
+		F4A7143427EDA732005B5B69 /* Logic in Frameworks */ = {isa = PBXBuildFile; productRef = F4A7143327EDA732005B5B69 /* Logic */; };
+		F4A7143627EDB0AC005B5B69 /* AppImport in Frameworks */ = {isa = PBXBuildFile; productRef = F4A7143527EDB0AC005B5B69 /* AppImport */; };
 		F4AA1A8027EAE94100E1FFBC /* FramesHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AA1A7F27EAE94100E1FFBC /* FramesHomeController.swift */; };
 		F4AA1A8227EAE96F00E1FFBC /* AutoLayoutHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AA1A8127EAE96F00E1FFBC /* AutoLayoutHomeController.swift */; };
 		F4AA1A8427EAE97E00E1FFBC /* ControllersHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AA1A8327EAE97E00E1FFBC /* ControllersHomeController.swift */; };
@@ -91,12 +91,7 @@
 		F40E514827D8823700351BCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F40E514D27D8824100351BCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F40E514F27D8833E00351BCA /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Entitlements.entitlements; sourceTree = "<group>"; };
-		F43A8D2627E9B43A002446FC /* Models */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Models; sourceTree = "<group>"; };
-		F43A8D2727E9B43A002446FC /* Texts */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Texts; sourceTree = "<group>"; };
-		F43A8D2827E9B4E1002446FC /* Constants */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Constants; sourceTree = "<group>"; };
-		F43A8D2927E9B4E1002446FC /* ExtensionImport */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ExtensionImport; sourceTree = "<group>"; };
-		F43A8D2B27E9B638002446FC /* Logic */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Logic; sourceTree = "<group>"; };
-		F43A8D2C27E9B74C002446FC /* AppImport */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AppImport; sourceTree = "<group>"; };
+		F4A7143227EDA56D005B5B69 /* Components */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Components; sourceTree = "<group>"; };
 		F4AA1A7F27EAE94100E1FFBC /* FramesHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesHomeController.swift; sourceTree = "<group>"; };
 		F4AA1A8127EAE96F00E1FFBC /* AutoLayoutHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutHomeController.swift; sourceTree = "<group>"; };
 		F4AA1A8327EAE97E00E1FFBC /* ControllersHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllersHomeController.swift; sourceTree = "<group>"; };
@@ -108,8 +103,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4A2E2EF27E9B911000B67EA /* AppImport in Frameworks */,
-				F4A2E2F127E9B911000B67EA /* Logic in Frameworks */,
+				F4A7143427EDA732005B5B69 /* Logic in Frameworks */,
+				F4A7143627EDB0AC005B5B69 /* AppImport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,12 +114,7 @@
 		F40E506C27D87B4300351BCA = {
 			isa = PBXGroup;
 			children = (
-				F43A8D2C27E9B74C002446FC /* AppImport */,
-				F43A8D2B27E9B638002446FC /* Logic */,
-				F43A8D2827E9B4E1002446FC /* Constants */,
-				F43A8D2927E9B4E1002446FC /* ExtensionImport */,
-				F43A8D2627E9B43A002446FC /* Models */,
-				F43A8D2727E9B43A002446FC /* Texts */,
+				F4A7143227EDA56D005B5B69 /* Components */,
 				F40E507727D87B4400351BCA /* iOS & macOS Apps */,
 				F40E507627D87B4400351BCA /* Products */,
 				F40E513D27D87F3100351BCA /* Frameworks */,
@@ -412,8 +402,8 @@
 			);
 			name = Layout;
 			packageProductDependencies = (
-				F4A2E2EE27E9B911000B67EA /* AppImport */,
-				F4A2E2F027E9B911000B67EA /* Logic */,
+				F4A7143327EDA732005B5B69 /* Logic */,
+				F4A7143527EDB0AC005B5B69 /* AppImport */,
 			);
 			productName = "iOS & macOS Apps";
 			productReference = F40E507527D87B4400351BCA /* Layout.app */;
@@ -732,13 +722,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F4A2E2EE27E9B911000B67EA /* AppImport */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AppImport;
-		};
-		F4A2E2F027E9B911000B67EA /* Logic */ = {
+		F4A7143327EDA732005B5B69 /* Logic */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Logic;
+		};
+		F4A7143527EDB0AC005B5B69 /* AppImport */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppImport;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
