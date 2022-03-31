@@ -31,121 +31,107 @@ class ViewsHomeController: SPDiffableTableController {
         )
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        presentModal()
-    }
+    // MARK: - Data
     
-    // move to detail
-    private func presentModal() {
-        let detailViewController = UIViewController()
-        detailViewController.view.backgroundColor = .systemBackground
-        let nav = UINavigationController(rootViewController: detailViewController)
-        detailViewController.navigationItem.rightBarButtonItem = detailViewController.closeBarButtonItem
-
-        nav.modalPresentationStyle = .pageSheet
-        if let sheet = nav.sheetPresentationController {
-            sheet.detents = [.medium(), .large()]
-        }
-        present(nav, animated: true, completion: nil)
+    internal var viewItems: [ViewItem] {
+        [
+            .init(
+                title: "UIButton",
+                footer: "A control that executes your custom code in response to user interactions.",
+                editors: [
+                    .init(title: "Content Edge Insets", action: {
+                        guard let navigationController = self.navigationController else { return }
+                        Presenter.Views.showDetailExample(on: navigationController)
+                    }),
+                    .init(title: "Image & Title Edge Insets", action: {
+                        guard let navigationController = self.navigationController else { return }
+                        Presenter.Views.showDetailExample(on: navigationController)
+                    })
+                ]
+            ),
+            .init(
+                title: "UITableViewCell",
+                footer: "The visual representation of a single row in a table view.",
+                editors: [
+                    .init(title: "Layout Margins", action: {
+                        guard let navigationController = self.navigationController else { return }
+                        Presenter.Views.showDetailExample(on: navigationController)
+                    })
+                ]
+            ),
+            .init(
+                title: "UICollectionViewCell",
+                footer: "A single data item when that item is within the collection view’s visible bounds.",
+                editors: [
+                    .init(title: "Layout Margins", action: {
+                        guard let navigationController = self.navigationController else { return }
+                        Presenter.Views.showDetailExample(on: navigationController)
+                    })
+                ]
+            ),
+            .init(
+                title: "UITextField",
+                footer: "A single data item when that item is within the collection view’s visible bounds.",
+                editors: [
+                    .init(title: "Text Rect", action: {
+                        guard let navigationController = self.navigationController else { return }
+                        Presenter.Views.showDetailExample(on: navigationController)
+                    }),
+                    .init(title: "Placeholder Rect", action: {
+                        guard let navigationController = self.navigationController else { return }
+                        Presenter.Views.showDetailExample(on: navigationController)
+                    }),
+                    .init(title: "Editing Rect", action: {
+                        guard let navigationController = self.navigationController else { return }
+                        Presenter.Views.showDetailExample(on: navigationController)
+                    }),
+                    .init(title: "Clear Button Rect", action: {
+                        guard let navigationController = self.navigationController else { return }
+                        Presenter.Views.showDetailExample(on: navigationController)
+                    })
+                ]
+            ),
+        ]
     }
     
     // MARK: - Diffable
     
-    internal enum Item: String {
-        
-        case uibutton
-        case uitableviewcell
-        case uicollectionviewcell
-        case uitextfield
-        
-        var sectonID: String { "section" + rawValue }
-        var itemID: String { "item" + rawValue }
+    internal var content: [SPDiffableSection] {
+        var sections: [SPDiffableSection] = []
+        for viewItem in viewItems {
+            let headerItem = ViewHeaderDiffableItem(id: viewItem.title, title: viewItem.title)
+            let editItems = viewItem.editors.map({ editor in
+                return NativeDiffableLeftButton(
+                    id: viewItem.title + editor.title,
+                    text: editor.title,
+                    textColor: .tint,
+                    accessoryType: .disclosureIndicator,
+                    action: { _, _ in editor.action() }
+                )
+            })
+            let section = SPDiffableSection(
+                id: viewItem.title,
+                header: nil,
+                footer: SPDiffableTextHeaderFooter(text: viewItem.footer),
+                items: [headerItem] + editItems
+            )
+            sections.append(section)
+        }
+        return sections
     }
     
+    // MARK: - Models
     
-    internal var content: [SPDiffableSection] {
-        [
-            .init(
-                id: Item.uibutton.sectonID,
-                header: nil,
-                footer: SPDiffableTextHeaderFooter(text: "A control that executes your custom code in response to user interactions."),
-                items: [
-                    ViewHeaderDiffableItem(id: Item.uibutton.itemID, title: "UIButton"),
-                    NativeDiffableLeftButton(
-                        id: Item.uibutton.itemID + "content_edge_insets",
-                        text: "Content Edge Insets",
-                        textColor: .tint,
-                        accessoryType: .disclosureIndicator
-                    ),
-                    NativeDiffableLeftButton(
-                        id: Item.uibutton.itemID + "image_title_edge_insets",
-                        text: "Image & Title Edge Insets",
-                        textColor: .tint,
-                        accessoryType: .disclosureIndicator
-                    )
-                ]
-            ),
-            .init(
-                id: Item.uitableviewcell.sectonID,
-                header: nil,
-                footer: SPDiffableTextHeaderFooter(text: "The visual representation of a single row in a table view."),
-                items: [
-                    ViewHeaderDiffableItem(id: Item.uitableviewcell.itemID, title: "UITableViewCell"),
-                    NativeDiffableLeftButton(
-                        id: Item.uitableviewcell.itemID + "layout_margins",
-                        text: "Layout Margins",
-                        textColor: .tint,
-                        accessoryType: .disclosureIndicator
-                    )
-                ]
-            ),
-            .init(
-                id: Item.uicollectionviewcell.sectonID,
-                header: nil,
-                footer: SPDiffableTextHeaderFooter(text: "A single data item when that item is within the collection view’s visible bounds."),
-                items: [
-                    ViewHeaderDiffableItem(id: Item.uicollectionviewcell.itemID, title: "UICollectionViewCell"),
-                    NativeDiffableLeftButton(
-                        id: Item.uicollectionviewcell.itemID + "layout_margins",
-                        text: "Layout Margins",
-                        textColor: .tint,
-                        accessoryType: .disclosureIndicator
-                    )
-                ]
-            ),
-            .init(
-                id: Item.uitextfield.sectonID,
-                header: nil,
-                footer: SPDiffableTextHeaderFooter(text: "An object that displays an editable text area in your interface."),
-                items: [
-                    ViewHeaderDiffableItem(id: Item.uitextfield.itemID, title: "UITextField"),
-                    NativeDiffableLeftButton(
-                        id: Item.uitextfield.itemID + "text_rect",
-                        text: "Text Rect",
-                        textColor: .tint,
-                        accessoryType: .disclosureIndicator
-                    ),
-                    NativeDiffableLeftButton(
-                        id: Item.uitextfield.itemID + "placeholder_rect",
-                        text: "Placeholder Rect",
-                        textColor: .tint,
-                        accessoryType: .disclosureIndicator
-                    ),
-                    NativeDiffableLeftButton(
-                        id: Item.uitextfield.itemID + "editing_rect",
-                        text: "Editing Rect",
-                        textColor: .tint,
-                        accessoryType: .disclosureIndicator
-                    ),
-                    NativeDiffableLeftButton(
-                        id: Item.uitextfield.itemID + "clear_button_rect",
-                        text: "Clear Button Rect",
-                        textColor: .tint,
-                        accessoryType: .disclosureIndicator
-                    )
-                ]
-            )
-        ]
+    struct ViewItem {
+        
+        var title: String
+        var footer: String
+        var editors: [EditorItem]
+    }
+    
+    struct EditorItem {
+        
+        var title: String
+        var action: ()->Void
     }
 }

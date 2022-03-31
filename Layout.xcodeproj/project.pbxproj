@@ -43,6 +43,8 @@
 		F40E514327D8822500351BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40E514227D8822500351BCA /* LaunchScreen.storyboard */; };
 		F40E514727D8823700351BCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F40E514927D8823700351BCA /* InfoPlist.strings */; };
 		F40E514C27D8824100351BCA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F40E514E27D8824100351BCA /* Localizable.strings */; };
+		F47DA4C927F59D9300740692 /* ViewDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47DA4C827F59D9300740692 /* ViewDetailController.swift */; };
+		F47DA4CB27F59DD000740692 /* Presenter+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47DA4CA27F59DD000740692 /* Presenter+Views.swift */; };
 		F4A7143427EDA732005B5B69 /* Logic in Frameworks */ = {isa = PBXBuildFile; productRef = F4A7143327EDA732005B5B69 /* Logic */; };
 		F4A7143627EDB0AC005B5B69 /* AppImport in Frameworks */ = {isa = PBXBuildFile; productRef = F4A7143527EDB0AC005B5B69 /* AppImport */; };
 		F4AA1A8027EAE94100E1FFBC /* FramesHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AA1A7F27EAE94100E1FFBC /* FramesHomeController.swift */; };
@@ -91,6 +93,8 @@
 		F40E514827D8823700351BCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F40E514D27D8824100351BCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F40E514F27D8833E00351BCA /* Entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Entitlements.entitlements; sourceTree = "<group>"; };
+		F47DA4C827F59D9300740692 /* ViewDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDetailController.swift; sourceTree = "<group>"; };
+		F47DA4CA27F59DD000740692 /* Presenter+Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Presenter+Views.swift"; sourceTree = "<group>"; };
 		F4A7143227EDA56D005B5B69 /* Components */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Components; sourceTree = "<group>"; };
 		F4AA1A7F27EAE94100E1FFBC /* FramesHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesHomeController.swift; sourceTree = "<group>"; };
 		F4AA1A8127EAE96F00E1FFBC /* AutoLayoutHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutHomeController.swift; sourceTree = "<group>"; };
@@ -214,8 +218,9 @@
 		F40E50A127D87EF000351BCA /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				F40E50A227D87EF000351BCA /* Presenter+App.swift */,
 				F40E50A327D87EF000351BCA /* Presenter.swift */,
+				F40E50A227D87EF000351BCA /* Presenter+App.swift */,
+				F47DA4CA27F59DD000740692 /* Presenter+Views.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -332,6 +337,7 @@
 				F40E50F327D87EF100351BCA /* Diffable */,
 				F40E50F627D87EF100351BCA /* ViewsHomeController.swift */,
 				F40E50F727D87EF100351BCA /* ViewHeaderTableCell.swift */,
+				F47DA4C827F59D9300740692 /* ViewDetailController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -465,6 +471,7 @@
 				F40E511027D87EF100351BCA /* VerticalContentScrollController.swift in Sources */,
 				F40E511527D87EF100351BCA /* Notifications.swift in Sources */,
 				F40E510727D87EF100351BCA /* Controllers.swift in Sources */,
+				F47DA4C927F59D9300740692 /* ViewDetailController.swift in Sources */,
 				F40E511327D87EF100351BCA /* SettingsSceneDelegate.swift in Sources */,
 				F40E513C27D87EF100351BCA /* ViewHeaderTableCell.swift in Sources */,
 				F40E510427D87EF100351BCA /* BarRowModel.swift in Sources */,
@@ -495,6 +502,7 @@
 				F40E510C27D87EF100351BCA /* Layout.swift in Sources */,
 				F40E511427D87EF100351BCA /* UISceneConfiguration+Scene.swift in Sources */,
 				F40E50FB27D87EF100351BCA /* ConstantsExtension.swift in Sources */,
+				F47DA4CB27F59DD000740692 /* Presenter+Views.swift in Sources */,
 				F40E511227D87EF100351BCA /* BaseSceneDelegate.swift in Sources */,
 				F40E510627D87EF100351BCA /* BarUsage.swift in Sources */,
 			);

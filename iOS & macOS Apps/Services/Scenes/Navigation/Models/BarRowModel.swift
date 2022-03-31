@@ -39,10 +39,10 @@ struct BarRowModel {
         
         var image: UIImage {
             switch self {
-            case .views: return .init(SPSafeSymbol.rectangle.insetFilled)
+            case .views: return .init(SPSafeSymbol.rectangle._3GroupFill)
             case .frames: return .init(SPSafeSymbol.rectangle.insetFilled)
-            case .autoLayout: return .init(SPSafeSymbol.rectangle.insetFilled)
-            case .controllers: return .init(SPSafeSymbol.rectangle.insetFilled)
+            case .autoLayout: return .init(SPSafeSymbol.rectangle.righthalfInsetFilled)
+            case .controllers: return .init(SPSafeSymbol.rectangle.portraitFill)
             case .settings: return .init(SPSafeSymbol.gearshape.fill)
             }
         }
