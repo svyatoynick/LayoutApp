@@ -6,7 +6,6 @@ import SPFirebaseAuth
 import Constants
 import Models
 import Texts
-import SPProfiling
 
 public class LogicService {
     
@@ -14,7 +13,7 @@ public class LogicService {
         
         let filePath = Bundle.module.path(forResource: Constants.Firebase.plist_filename, ofType: .empty)!
         let options = FirebaseOptions(contentsOfFile: filePath)!
-        SPProfiling.configure(.anonymouslyAllowed, firebaseOptions: options)
+        //SPProfiling.configure(.anonymouslyAllowed, firebaseOptions: options)
         
         shared.setObservers()
     }
@@ -22,9 +21,9 @@ public class LogicService {
     // MARK: - Private
     
     private func setObservers() {
-        NotificationCenter.default.addObserver(forName: SPProfiling.didChangedAuthState, object: nil, queue: nil) { notification in
+        /*NotificationCenter.default.addObserver(forName: SPProfiling.didChangedAuthState, object: nil, queue: nil) { notification in
             debug("Logic/Notification: Handled notification about changed auth state.")
-        }
+        }*/
     }
     
     // MARK: - Singltone

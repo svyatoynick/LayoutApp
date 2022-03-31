@@ -24,15 +24,13 @@ class SettingsController: SPDiffableTableController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = Texts.App.Settings.title
-        tableView.register(ProfileTableViewCell.self)
-        configureDiffable(sections: content, cellProviders: SPDiffableTableDataSource.CellProvider.default + [.profile])
+        configureDiffable(sections: content, cellProviders: SPDiffableTableDataSource.CellProvider.default)
     }
     
     // MARK: - Diffable
     
     internal enum Section: String {
         
-        case profile
         case notifications
         case appearance
         case language
@@ -43,7 +41,6 @@ class SettingsController: SPDiffableTableController {
     
     internal enum Item: String {
         
-        case profile
         case notifications
         case appearance_style
         case appearance_tint
@@ -55,21 +52,6 @@ class SettingsController: SPDiffableTableController {
     
     internal var content: [SPDiffableSection] {
         [
-            .init(
-                id: Section.profile.id,
-                header: nil,
-                footer: SPDiffableTextHeaderFooter(text: "Description here too."),
-                items: [
-                    DiffableProfileItem(
-                        authTitle: "Sign In",
-                        authDescription: "For sync your data between all devieces",
-                        cellAuthSubtitle: "Sync between devices",
-                        cellProfileSubtitle: "You are welcome",
-                        features: [],
-                        presentOn: self
-                    )
-                ]
-            ),
             .init(
                 id: Section.notifications.id,
                 header: SPDiffableTextHeaderFooter(text: "Notifications"),

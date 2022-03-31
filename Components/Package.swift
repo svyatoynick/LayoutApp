@@ -20,7 +20,6 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/ivanvorobei/SPFirebase", .upToNextMajor(from: "1.0.9")),
-        .package(url: "https://github.com/ivanvorobei/SPProfiling", .upToNextMajor(from: "1.1.9")),
         .package(url: "https://github.com/ivanvorobei/SparrowKit", .upToNextMajor(from: "3.6.1")),
         .package(url: "https://github.com/ivanvorobei/NativeUIKit", .upToNextMajor(from: "1.4.6")),
         .package(url: "https://github.com/ivanvorobei/SPIndicator", .upToNextMajor(from: "1.6.4")),
@@ -47,7 +46,7 @@ let package = Package(
         .target(
             name: "Logic",
             dependencies: [
-                "SwiftyJSON", "Alamofire", "SPProfiling", "Constants", "Models", "Texts",
+                "SwiftyJSON", "Alamofire", "Constants", "Models", "Texts",
                 .product(name: "SPFirebaseAuth", package: "SPFirebase"),
                 .product(name: "SPFirebaseFirestore", package: "SPFirebase"),
                 .product(name: "SPFirebaseMessaging", package: "SPFirebase"),

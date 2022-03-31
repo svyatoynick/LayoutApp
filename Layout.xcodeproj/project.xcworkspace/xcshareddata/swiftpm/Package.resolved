@@ -227,15 +227,6 @@
         }
       },
       {
-        "package": "SPProfiling",
-        "repositoryURL": "https://github.com/ivanvorobei/SPProfiling",
-        "state": {
-          "branch": null,
-          "revision": "b5c6214e1e08ec9a58a577179127fa34899b18c0",
-          "version": "1.1.9"
-        }
-      },
-      {
         "package": "SPSafeSymbols",
         "repositoryURL": "https://github.com/sparrowcode/SPSafeSymbols",
         "state": {
